@@ -1,6 +1,9 @@
 #include <iostream>
+#include <fstream>
+#include <string>
+#include "defines.h"
 
-manageControlFlow_IF();
+using namespace std;
 
-manageControlFlow_WHILE();
+void manage(string filename);
 	
