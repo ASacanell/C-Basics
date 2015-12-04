@@ -3,5 +3,3 @@
 #define controlFOR "controlFlow_FOR"
 #define controlSWITCH "controlFlow_SWITCH"
 #define controlGOTO "controlFlow_GOTO"
-
-#define controlIF "controlFlow_IF"

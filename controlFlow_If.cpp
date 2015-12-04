@@ -1,0 +1,23 @@
+
+//Estructura basica de control de flujo.
+//Se puede leer literalmente como "si se cumple [···] entonces..."
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+  int number = 5;
+  int input;
+  cin >> input;
+  
+  if(input<number){
+    cout << "Input less than number\n";
+  }else if(input==number){
+    cout << "Input equals to number\n";
+  }else{
+    cout << "Input great than number\n";
+  }
+  
+  return 0;
+}

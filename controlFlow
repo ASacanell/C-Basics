@@ -1,0 +1,12 @@
+Este conjunto de ordenes se centra en controlar de forma no lineal
+el flujo del programa. Permite elegir que codigo se ejecutara y 
+cual no. 
+
+Se usa habitualmente para escoger que codigo ejecutar u omitir.
+
+Esta constituido por principalmente por:
+ ·If
+ ·While
+ ·For
+ ·Switch
+ ·goto
