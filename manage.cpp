@@ -1,6 +1,6 @@
 #include "manage.h"
 
-void manage(string filename){
+void readFile(string filename){
 	string text;
 	ifstream file;
 
@@ -13,4 +13,8 @@ void manage(string filename){
 	} else {
 		cout << "Unable to open file" << endl;
 	}
+}
+
+void cleanConsole(){
+	system("cls");
 }

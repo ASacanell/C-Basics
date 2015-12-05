@@ -10,5 +10,7 @@ filename - Name of the file we are going to read
 
 Shows in the console the info written in the file.
 */
-void manage(string filename);
+void readFile(string filename);
 	
+	
+void cleanConsole();

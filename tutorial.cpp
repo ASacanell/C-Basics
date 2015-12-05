@@ -8,6 +8,7 @@ int main(){
 	bool end = false;
 	
 	do{
+		cleanConsole();
 		showMainMenu();
 		end = chooseMainOption();
 	}while(!end);

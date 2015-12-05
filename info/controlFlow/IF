@@ -1,6 +1,6 @@
 
 //Estructura basica de control de flujo.
-//Se puede leer literalmente como "si se cumple [Â·Â·Â·] entonces..."
+//Se puede leer literalmente como "si se cumple [···] entonces..."
 
 #include <iostream>
 
