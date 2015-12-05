@@ -7,11 +7,14 @@ using namespace std;
 int main(){
 	bool end = false;
 	
+	welcomeCPPBasics();
 	do{
 		cleanConsole();
 		showMainMenu();
 		end = chooseMainOption();
 	}while(!end);
 	
+	seeYouCPPBasics();
+
 	return 0;
 }

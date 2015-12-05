@@ -14,3 +14,9 @@ void readFile(string filename);
 	
 	
 void cleanConsole();
+
+void pauseConsole();
+
+void welcomeCPPBasics();
+
+void seeYouCPPBasics();

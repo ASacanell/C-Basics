@@ -168,7 +168,7 @@ bool chooseMainOption(){
 			break;}
 			
 		case 6:{
-			menuFuntions();
+			menuFunctions();
 			break;}
 			
 		case 7:{
@@ -380,11 +380,11 @@ bool chooseRecursionOption(){
 			readFile(recursionFACT);
 			break;}
 					
-		case 2:{
+		case 3:{
 			readFile(recursionPAIR);
 			break;}
 					
-		case 2:{
+		case 4:{
 			readFile(recursionFIB);
 			break;}
 	}
@@ -517,13 +517,13 @@ void menuPointers(){
 	}while(!back);
 }
 
-void menuFuntions(){
+void menuFunctions(){
 	bool back = false;
 	
 	do{
 		cleanConsole();
-		showFuntionsMenu();
-		back = chooseFuntionsOption();
+		showFunctionsMenu();
+		back = chooseFunctionsOption();
 	}while(!back);
 }
 
